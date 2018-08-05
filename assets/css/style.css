@@ -25,9 +25,6 @@ body {
   color: white;
   width: 65%; 
   background-attachment: scroll;
-  margin-left: auto ;
-  margin-right: auto;
-  margin-top:  100px;
   background-size: 100%;
      */
 }
@@ -46,11 +43,27 @@ p {
 }
 
 
+#mainArea {
+    margin-top:10px; 
+
+/*    
+    max-width: 50%;
+    margin-left: auto;
+    color: black;
+    font-size: 26px;
+    height: 500px;
+     */
+}
+
+
 .btn {
     width:200px;
     padding:15px;
     font-size: 22px;
   }
+
+
+  /* FORMAT IMAGES */
 
   img {
     margin-top: 30px;
@@ -62,4 +75,37 @@ p {
     border-radius: 25px;
     margin-top: 40px;
     width:60%;    
+  }
+
+  /* FORMAT ANSWERS */
+
+  .answer {
+    height: 55px;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 4px;
+    opacity: .7;
+  }
+
+  .first-answer {
+    margin-top: 50px;
+  }
+
+  .answer:hover {
+    background: rgba(250, 240, 99, 0.99);
+  }
+
+
+  /* FORMAT TIMER */
+  .timer-p {
+    margin-top: 50px;
+    font-size:24px;
+  }
+
+
+  /* FINAL SCREEN */
+  .reset-button {
+    margin-top: 72px;
+    margin: 0 auto;
   }

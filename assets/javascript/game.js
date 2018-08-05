@@ -1,13 +1,13 @@
 $(document).ready(function() {
-    // Creates the start button and initial screen
     
+    // Creates the start button and initial screen
     function openingPage() {
         openScreen = "<p class='text-center main-button-container'><a class='btn btn-warning btn-md btn-block start-button' href='#' role='button'>Play Game</a></p>";
         $("#mainArea").append(openScreen);
     }
     
     openingPage();
-    
+
     // On-click event for start button to begin name
     $("#mainArea").on("click", ".start-button", function(event){
         event.preventDefault();  // added line to test issue on GitHub Viewer
