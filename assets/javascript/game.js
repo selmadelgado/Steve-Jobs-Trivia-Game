@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Create a function that creates the start button and initial screen
+    // Creates the start button and initial screen
     
     function openingPage() {
         openScreen = "<p class='text-center main-button-container'><a class='btn btn-warning btn-md btn-block start-button' href='#' role='button'>Play Game</a></p>";
@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     openingPage();
     
-    //on-click event for start button to begin name
+    // On-click event for start button to begin name
     $("#mainArea").on("click", ".start-button", function(event){
         event.preventDefault();  // added line to test issue on GitHub Viewer
         clickSound.play();
@@ -160,4 +160,4 @@ $(document).ready(function() {
     var correctTally = 0;
     var incorrectTally = 0;
     var unansweredTally = 0;
-    var clickSound = new Audio("assets/sounds/click-sound.mp3");
+    var clickSound = new Audio("assets/sounds/btn-click.mp3");
