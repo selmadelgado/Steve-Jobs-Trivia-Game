@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+
+body { 
+     min-height: 100vh;  
+     background: url("../images/background.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     margin-left: auto ;
+     margin-right: auto;
+     margin-top:  100px;
+     font-family: 'Raleway', sans-serif;
+     line-height: 2.5em;
+     text-align: center;
+      width: 65%;
+}
+
+
+h1 {
+    font-size: 30px;
+    margin: 20px;
+     line-height:  1.5em;
+     font-weight: 300;
+}
+
+p {
+     line-height:  1.5em;
+}
